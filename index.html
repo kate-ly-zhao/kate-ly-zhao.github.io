@@ -13,30 +13,59 @@
 	<!-- Linking fonts -->
 </head>
 	
-<body>
-	<!-- Navigation Bar -->
-	<nav>
-		<a href="/">Home</a>
-		<a href="https://github.com/kate-ly-zhao/kate-ly-zhao.github.io/blob/master/about.html">About</a>
-		<a href="/cv">CV</a>
-		<a href="/blog">Blog</a>
-	</nav>
-		
+<body>	
 	<!-- Header cover image -->
 	<!--header>
 		<h1>Personal Website</h1>
 	</header-->
 		
 	<div class="container">	
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<nav class="navbar navbar-default">
+    			<div class="container-fluid">
+      				<div class="navbar-header">
+        				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          					<span class="icon-bar"></span>
+          					<span class="icon-bar"></span>
+          					<span class="icon-bar"></span> 
+						<span class="icon-bar"></span>
+        				</button>
+        			<a class="navbar-brand" href="#">Kate LY Zhao</a>
+      				</div>
+      				<div class="collapse navbar-collapse" id="myNavbar">
+        				<ul class="nav navbar-nav">
+          					<li><a href="https://github.com/kate-ly-zhao/kate-ly-zhao.github.io/blob/master/about.html">About</a></li>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="/blog">Blog</a></li>
+        				</ul>
+      				</div>
+    			</div>
+  		</nav>
+
+ 		<div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+    			<div class="carousel-inner" role="listbox">
+      				<div class="item active background a"></div>
+      				<div class="item background b"></div>
+      				<div class="item background c"></div>
+    			</div>
+  		</div>
+  
+  		<div class="covertext">
+    			<div class="col-lg-10" style="float:none; margin:0 auto;">
+      				<h1 class="title">KATE LY ZHAO</h1>
+      				<h3 class="subtitle">UWaterloo ECE</h3>
+    			</div>
+    		<div class="col-xs-12 explore">
+      			<a href="#"><button type="button" class="btn btn-lg explorebtn">EXPLORE</button></a>
+    		</div>
+  	</div>
 			<!-- Indicators -->
-			<ol class="carousel-indicators">
+			<!--ol class="carousel-indicators">
       				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       				<li data-target="#myCarousel" data-slide-to="1"></li>
       				<li data-target="#myCarousel" data-slide-to="2"></li>
     			</ol>
 			<!-- Wrapper for slides -->
-    			<div class="carousel-inner">
+    			<!--div class="carousel-inner">
       				<div class="item active">
         				<img src="http://via.placeholder.com/350x150" alt="Los Angeles" style="width:100%;">
       				</div>
@@ -49,26 +78,26 @@
     			</div>
 
     			<!-- Left and right controls -->
-    			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    			<!--a class="left carousel-control" href="#myCarousel" data-slide="prev">
       				<span class="glyphicon glyphicon-chevron-left"></span>
       				<span class="sr-only">Previous</span>
     			</a>
     			<a class="right carousel-control" href="#myCarousel" data-slide="next">
       				<span class="glyphicon glyphicon-chevron-right"></span>
       				<span class="sr-only">Next</span>
-    			</a>
-		</div>	
+    			</a-->
+		<!--/div>	
 		
 		<!--div class="blurb"-->
-        		<h1>Hi there, I'm Kate!</h1>
+        		<!--h1>Hi there, I'm Kate!</h1>
 				<p>I'm currently studying Electrical Engineering at the University of Waterloo. <a href="/blog">Read more about the adventures I've been up to...</a></p>
     		<!--/div--><!-- /.blurb -->
 	</div><!-- /.container -->
 		
-	<footer>
+	<!--footer>
         	<a href="mailto:katelyzhao@gmail.com">email</a>
         	<a href="https://github.com/kate-ly-zhao">github.com/kate-ly-zhao</a>
-	</footer>
+	</footer-->
 </body>
 
 </html>
