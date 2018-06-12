@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'Helvetica', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
@@ -39,7 +39,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
+} */
 
 .container-fluid.main{
   position: relative; /* To make the navbar positions relative to this container */
