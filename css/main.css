@@ -3,7 +3,7 @@
     margin: 60px auto;
     width: 70%;
 }
-nav, header, footer {
+nav, header {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -26,10 +26,6 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 
@@ -217,4 +213,13 @@ ul.posts li {
 .btn.active.focus {
   color: #ffffff;
   outline: none;
+}
+
+footer {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    font-size: .8em;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #d5d5d5;
 }
