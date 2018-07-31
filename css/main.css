@@ -107,22 +107,21 @@ ul.posts li {
 
 @media (max-width:991px) {
   .carousel .background {
-    background-size: cover; /* To make the background image looks good */
+    /* background-size: cover; /* To make the background image looks good */
+    width: 100%;
+    height: 100%;
   }
 }
 
 .carousel .background.a {
-  /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg"); */
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_5085.JPG');
 }
 
 .carousel .background.b {
-  /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg"); */
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4520.JPG');
 }
 
 .carousel .background.c {
-  /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg"); */
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4475.JPG');
 }
 
