@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana;
+    padding: 20px;
+    background: #f1f1f1;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    padding: 10px;
+    /*position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Applying this code bring the menu in front of the background */
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+header {
+    max-width: 1500px;
+    height: 400px;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: cornflowerblue;
+}
+
+h1 {
+    padding: 150px;
+}
+
+h3 {
+    /*padding: 10px; */
+}
+
+.article_grid {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+    /*display: grid;
+    grind-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 1em;
+    background-color: navy;
+    /*padding: 10px; */
+}
+
+.article {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 20px;
+
+    /* display: flex;*/
+    /*align-items: center;
+    justify-content: center;
+    /* height: 200px;*/
+
+    /*border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+    max-width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*flex: 1 1 200px; */
+}
+
+.article img {
+    /*object-fit: cover;
+    width: 100%;
+    max-height: 100%; */
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.description {
+    padding: 10px 16px;
+    color: navy;
+    background-color: white;
+}
+
+/*@supports (display: grid) {
+    .article {
+        margin: 0;
+    }
+} */
+
+@media screen and (max-width: 900px) {
+    .article {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .article {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: navy;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: auto; /* or 100% */
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+

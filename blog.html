@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang = "en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>Kate's Blog</title>
-    <link rel="stylesheet" type="text/css" href="/css/pages.css">
-</head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kate's Blog</title>
+<link rel="stylesheet" type="text/css" href="/css/landing.css">
 
 
 <body>
@@ -23,77 +20,83 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Kate LY Zhao</a>
+            <a class="navbar-brand" href="/index.html">Kate LY Zhao</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="/about.html">About</a></li>
-                <li><a href="/cv">CV</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href=".">Blog</a></li>
+                <li><a href="/comingsoon.html">CV</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 
-<!-- Page content -->
-<div class="content padding" style="max-width:1564px">
+<header>
+    <!--img src="IMG_5153.JPG" alt="bridge" width="100%" height="100%"-->
+    <h1>Kate's Blog</h1>
+</header>
+
+<div class="content">
+    <!-- Page content -->
 
     <!-- Project Section -->
-    <div class="container padding-32" id="projects">
-        <h3 class="border-bottom border-light-grey padding-16">Blog Posts</h3>
+    <div id="articles_title">
+        <h3>Articles & Posts</h3>
     </div>
 
-    <div class="row-padding">
-        <div class="col l3 m6 margin-bottom">
-            <div class="display-container">
-                <div class="display-topleft black padding">Hello World</div>
-                <img src="/images/IMG_4475.JPG.jpg" alt="rotterdam" style="width:100%">
+    <div class="article_grid">
+        <div class="article">
+            <img src="../images/IMG_5085.JPG" alt = "NYC" style="width:100%">
+            <div class="description">
+                <p><b>Hello World</b></p>
+                <p>something something here</p>
             </div>
+            <img src="../images/IMG_5153.JPG" alt="Brooklyn" style="width:100%">
+            <img src="../images/IMG_4475.JPG" style="width:100%">
+            <img src="../images/IMG_4520.JPG" style="width:100%">
+            <img src="../images/IMG_4844.JPG" style="width:100%">
         </div>
-        <div class="col l3 m6 margin-bottom">
-            <div class="display-container">
-                <div class="display-topleft black padding">University</div>
-                <img src="/images/IMG_4485.JPG.jpg" alt="louvre" style="width:100%">
-            </div>
+
+        <div class="article">
+            <img src="../images/20170930_130519.jpg.JPG" style="width:100%">
+            <img src="../images/IMG_4603.JPG" style="width:100%">
+            <img src="../images/IMG_4485.JPG" style="width:100%">
+            <img src="../images/IMG_4970.JPG" style="width:100%">
+            <img src="../images/IMG_5016.JPG" style="width:100%">
         </div>
-        <div class="col l3 m6 margin-bottom">
-            <div class="display-container">
-                <div class="display-topleft black padding">Travel</div>
-                <img src="/images/IMG_4520.JPG.jpg" alt="seine" style="width:100%">
-            </div>
+
+        <div class="article">
+            <img src="../images/IMG_4475.JPG" style="width:100%">
+            <img src="../images/IMG_4520.JPG.JPG" style="width:100%">
+            <img src="../images/IMG_5153.JPG" style="width:100%">
+            <img src="../images/20170930_130519.jpg.JPG" style="width:100%">
+            <img src="../images/IMG_5085.JPG" style="width:100%">
         </div>
-        <div class="col l3 m6 margin-bottom">
-            <div class="display-container">
-                <div class="display-topleft black padding">Life</div>
-                <img src="/images/IMG_4603.JPG.jpg" alt="prague" style="width:100%">
-            </div>
+
+        <div class="article">
+            <img src="../images/IMG_4899.JPG.JPG" style="width:100%">
+            <img src="../images/IMG_5016.JPG" style="width:100%">
+            <img src="../images/IMG_4899.JPG" style="width:100%">
+            <img src="../images/IMG_4520.JPG" style="width:100%">
+            <img src="../images/IMG_4844.JPG" style="width:100%">
         </div>
+
+
     </div>
 
-    <!-- Contact Section -->
-    <div class="container padding-32" id="contact">
-        <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
-        <p>Feel free to share your comments, thoughts, or just say hi!</p>
-        <form action="/action_page.php" target="_blank">
-            <input class="input border" type="text" placeholder="Name" required name="Name">
-            <input class="input section border" type="text" placeholder="Email" required name="Email">
-            <input class="input section border" type="text" placeholder="Comment" required name="Comment">
-            <button class="button black section" type="submit">
-                <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-        </form>
-    </div>
 
-    <!-- End page content -->
+
+    <!--End page content-->
 </div>
 
-<!-- Footer -->
+<!--Footer here-->
 <footer>
-    <a href="mailto:katelyzhao@gmail.com">email</a>
-    <a href="https://github.com/kate-ly-zhao">github.com/kate-ly-zhao</a>
+    <a href="mailto:katelyzhao@gmail.com">Email</a>
+    <a href="https://github.com/kate-ly-zhao">Github</a>
 </footer>
-
 
 </body>
 </html>

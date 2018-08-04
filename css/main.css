@@ -1,41 +1,6 @@
-/*body {
-    font-family: 'Helvetica', 'Sans-Serif';
-    margin: 60px auto;
-    width: 70%;
+body, html {
+    height: 100%;
 }
-nav, header {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-a {
-    display: inline;
-    margin-right: 20px;
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-} */
 
 .container-fluid.main{
   position: relative; /* To make the navbar positions relative to this container */
@@ -44,7 +9,7 @@ ul.posts li {
 
 .navbar-default {
   background-image: none;
-  background-color: transparent; /* Make the menu become transparent */
+  background-color: transparent;
   border-radius: 0px;
   border: 0;
   box-shadow: none;
@@ -110,15 +75,22 @@ ul.posts li {
 }
 
 .carousel .background.a {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_5085.JPG');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_5085.JPG');
+    height: 100%;
+    width: 100%;
 }
 
 .carousel .background.b {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4520.JPG');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4520.JPG');
+    height: 100%;
+    width: 100%;
+
 }
 
 .carousel .background.c {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4475.JPG');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/IMG_4475.JPG');
+    height: 100%;
+    width: 100%;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -215,11 +187,21 @@ ul.posts li {
   outline: none;
 }
 
-footer {
+/*footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
     font-size: .8em;
     padding: 0px;
     list-style: none;
     border-top: 1px solid #d5d5d5;
+} */
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: auto; /* or 100% */
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    text-align: center;
 }
