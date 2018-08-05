@@ -14,85 +14,57 @@
 </head>
 	
 <body>			
-	<div class="container">	
-		<nav class="navbar navbar-default">
-    			<div class="container-fluid">
-      				<div class="navbar-header">
-        				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          					<span class="icon-bar"></span>
-          					<span class="icon-bar"></span>
-          					<span class="icon-bar"></span> 
-						<span class="icon-bar"></span>
-        				</button>
-        			<a class="navbar-brand" href=".">Kate LY Zhao</a>
-      				</div>
-      				<div class="collapse navbar-collapse" id="myNavbar">
-        				<ul class="nav navbar-nav">
-							<li><a href="/about.html">About</a></li>
-							<li><a href="/blog.html">Blog</a></li>
-							<li><a href="/comingsoon.html">CV</a></li>
-							<li><a href="/contact.html">Contact</a></li>
-        				</ul>
-      				</div>
-    			</div>
-  		</nav>
-		
-		
- 		<div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
-    			<div class="carousel-inner" role="listbox">
-      				<div class="item active background a"></div>
-      				<div class="item background b"></div>
-      				<div class="item background c"></div>
-    			</div>
-  		</div>
-  
-  		<div class="covertext">
-    			<div class="col-lg-10" style="float:none; margin:0 auto;">
-      				<h1 class="title">KATE LY ZHAO</h1>
-      				<h3 class="subtitle">UWaterloo ECE</h3>
-    			</div>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+    	<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=".">Kate LY Zhao</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/comingsoon.html">CV</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-  	</div>
-			<!-- Indicators -->
-			<!--ol class="carousel-indicators">
-      				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      				<li data-target="#myCarousel" data-slide-to="1"></li>
-      				<li data-target="#myCarousel" data-slide-to="2"></li>
-    			</ol>
-			<!-- Wrapper for slides -->
-    			<!--div class="carousel-inner">
-      				<div class="item active">
-        				<img src="http://via.placeholder.com/350x150" alt="Los Angeles" style="width:100%;">
-      				</div>
-      				<div class="item">
-        				<img src="http://via.placeholder.com/350x150" alt="Chicago" style="width:100%;">
-      				</div>
-      				<div class="item">
-        				<img src="http://via.placeholder.com/350x150" alt="New york" style="width:100%;">
-      				</div>
-    			</div>
+<div class="background">
+    <img class="mySlides fading" src="../images/IMG_4475.JPG" style="width:100%">
+    <img class="mySlides fading" src="../images/IMG_4520.JPG" style="width:100%">
+    <img class="mySlides fading" src="../images/IMG_4844.JPG" style="width:100%">
+    <img class="mySlides fading" src="../images/IMG_5085.JPG" style="width:100%">
 
-    			<!-- Left and right controls -->
-    			<!--a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      				<span class="glyphicon glyphicon-chevron-left"></span>
-      				<span class="sr-only">Previous</span>
-    			</a>
-    			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-      				<span class="glyphicon glyphicon-chevron-right"></span>
-      				<span class="sr-only">Next</span>
-    			</a-->
-		<!--/div>	
-		
-		<!--div class="blurb"-->
-        		<!--h1>Hi there, I'm Kate!</h1>
-				<p>I'm currently studying Electrical Engineering at the University of Waterloo. <a href="/blog">Read more about the adventures I've been up to...</a></p>
-    		<!--/div--><!-- /.blurb -->
-	</div><!-- /.container -->
-		
-	<footer>
-        	<a href="mailto:katelyzhao@gmail.com">Email</a>
-        	<a href="https://github.com/kate-ly-zhao">Github</a>
-	</footer>
+    <div class="text">
+        <h1>KATE LY ZHAO</h1>
+        <hr>
+        <h3>UWaterloo ECE</h3>
+    </div>
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 9000);
+    }
+</script>	
 </body>
 
 </html>
