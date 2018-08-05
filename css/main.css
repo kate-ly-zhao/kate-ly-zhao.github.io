@@ -1,7 +1,3 @@
-body, html {
-    height: 100%;
-}
-
 .container-fluid.main{
   position: relative; /* To make the navbar positions relative to this container */
   padding: 0;
@@ -201,7 +197,7 @@ footer {
     bottom: 0;
     width: auto; /* or 100% */
     padding: 10px;
-    background-color: navy;
+    background-color: transparent;
     color: white;
     text-align: center;
 }
