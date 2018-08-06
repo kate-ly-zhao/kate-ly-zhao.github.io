@@ -56,7 +56,7 @@ body, html {
 }
 
 .background {
-    background-image: url('IMG_4520.JPG');
+    background-image: url('../images/IMG_4520.JPG');
     height: 100%;
     background-position: center;
     background-size: cover;
