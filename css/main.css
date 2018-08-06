@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    font-family: Courier;
 }
 
 .navbar-default {
@@ -17,24 +18,24 @@ body, html {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Verdana;
-    color: #ffffff;
+    font-family: Courier;
+    color: #E1E3E4;
     font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+    color: #E1E3E4;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
@@ -51,16 +52,15 @@ body, html {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: #E1E3E4;
 }
 
 .background {
-    /*background-image: url('IMG_4520.JPG'); */
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: #E1E3E4;
     font-family: Courier;
     font-size: 30px;
 } 
