@@ -3,8 +3,7 @@ body, html {
 }
 
 .navbar-default {
-    background-image: none;
-    background-color: transparent;
+    background: linear-gradient(#333E47, transparent);
     border-radius: 0px;
     border: 0;
     box-shadow: none;
