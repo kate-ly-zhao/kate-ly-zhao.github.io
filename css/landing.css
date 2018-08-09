@@ -198,8 +198,7 @@ footer {
     bottom: 0;
     width: auto; /* or 100% */
     padding: 30px;
-    background-color: #7C8790;
+    background: linear-gradient(transparent, #7C8790);
     color: #E1E3E4;
     text-align: center;
 }
-
