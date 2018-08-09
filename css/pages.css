@@ -3,38 +3,38 @@ body, html {
 }
 
 .navbar-default {
-    background-image: none;
-    background-color: transparent; /* Make the menu become transparent */
+    background: linear-gradient(#333E47, #7C8790);
     border-radius: 0px;
     border: 0;
     box-shadow: none;
     padding: 10px;
-    position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10; /* Applying this code bring the menu in front of the background */
+    z-index: 10;
 }
 
 .navbar-default .navbar-brand {
-    font-family: Verdana;
-    color: #ffffff;
+    font-family: Courier;
+    color: #E1E3E4;
     font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+    font-family: Courier;
+    color: #E1E3E4;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
@@ -51,16 +51,16 @@ body, html {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: #E1E3E4;
 }
 
 .background {
-    background-image: url('../images/IMG_4520.JPG');
+    background-image: url('IMG_4520.JPG');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: #E1E3E4;
     font-family: Courier;
     font-size: 30px;
 }
@@ -75,5 +75,39 @@ body, html {
 
 hr {
     margin: auto;
-    width: 40%;
+    width: 95%;
+    color: #B4CFE3;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.about {
+    font-family: Courier;
+    color: #E1E3E4;
+    font-size: 40px;
+    text-align: center;
+    background-color: #7C8790;
+    max-width: 1500px;
+    height: 350px;
+    padding: 50px;
+}
+
+.about_title {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 27px;
+    font-size: 50px;
+}
+
+.about_subtitle {
+    padding-left: 27px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.container {
+    font-family: Verdana;
+    color: #333E47;
+    padding-top: 50px;
+    font-size: 16px;
 }
