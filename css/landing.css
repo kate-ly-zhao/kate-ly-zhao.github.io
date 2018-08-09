@@ -1,52 +1,44 @@
-* {
+/* {
     box-sizing: border-box;
-}
+} */
 
 body {
-    font-family: Verdana;
-    padding: 20px;
-    background: #f1f1f1;
-    height: 100%;
-}
-
-html {
-    height: 100%;
+    size: 100%
 }
 
 .navbar-default {
-    background-image: none;
-    background-color: transparent;
+    background: linear-gradient(#333E47, #7C8790);
     border-radius: 0px;
     border: 0;
     box-shadow: none;
     padding: 10px;
-    /*position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10; /* Applying this code bring the menu in front of the background */
+    z-index: 10;
 }
 
 .navbar-default .navbar-brand {
-    color: #ffffff;
+    font-family: Courier;
+    color: #E1E3E4;
     font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+    color: #E1E3E4;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #E1E3E4;
     background-color: transparent;
 }
 
@@ -63,32 +55,45 @@ html {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: #E1E3E4;
 }
 
 header {
-    max-width: 1500px;
-    height: 400px;
-    padding: 30px;
+    font-family: Courier;
+    color: #E1E3E4;
     font-size: 40px;
     text-align: center;
-    background: cornflowerblue;
+    background-color: #7C8790;
+    max-width: 1500px;
+    height: 350px;
+    padding: 50px;
 }
 
 h1 {
-    padding: 150px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 27px;
+    font-size: 50px;
 }
 
-h3 {
-    /*padding: 10px; */
+hr {
+    margin: auto;
+    width: 95%;
+    color: #B4CFE3;
+    border-width: 2px;
+    padding: 10px;
 }
+
 
 .article_grid {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding-top: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #E1E3E4;
 
     /*display: grid;
     grind-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -192,9 +197,9 @@ footer {
     left: 0;
     bottom: 0;
     width: auto; /* or 100% */
-    padding: 10px;
-    background-color: navy;
-    color: white;
+    padding: 30px;
+    background-color: #7C8790;
+    color: #E1E3E4;
     text-align: center;
 }
 
