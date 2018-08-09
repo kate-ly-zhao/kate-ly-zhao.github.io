@@ -12,8 +12,7 @@ body {
     border: 0;
     box-shadow: none;
     padding: 10px;
-    position: fixed;
-    width: 100%;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -33,6 +32,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
+    font-family: Courier;
     color: #E1E3E4;
 }
 
