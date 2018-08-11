@@ -81,7 +81,7 @@ hr {
     padding: 10px;
 }
 
-.about {
+header {
     font-family: Courier;
     color: #E1E3E4;
     font-size: 40px;
@@ -92,14 +92,14 @@ hr {
     padding: 50px;
 }
 
-.about_title {
+h1 {
     padding-top: 60px;
     padding-bottom: 20px;
     padding-left: 27px;
     font-size: 50px;
 }
 
-.about_subtitle {
+h3 {
     padding-left: 27px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -112,3 +112,4 @@ hr {
     padding-bottom: 50px;
     font-size: 16px;
 }
+
