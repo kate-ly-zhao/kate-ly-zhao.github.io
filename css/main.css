@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    font-family: Courier;
 }
 
 .navbar-default {
@@ -29,6 +28,7 @@ body, html {
 }
 
 .navbar-default .navbar-nav > li > a {
+    font-family: Courier;
     color: #E1E3E4;
 }
 
@@ -63,7 +63,7 @@ body, html {
     color: #E1E3E4;
     font-family: Courier;
     font-size: 30px;
-} 
+}
 
 .text {
     position: absolute;
@@ -76,8 +76,4 @@ body, html {
 hr {
     margin: auto;
     width: 40%;
-}
-
-.fading {
-    animation: fading 10s infinite;
 }
