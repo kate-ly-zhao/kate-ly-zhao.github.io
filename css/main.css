@@ -4,7 +4,6 @@ body, html {
 }
 
 .navbar-default {
-    background-image: none;
     background: linear-gradient(#333E47, transparent);
     border-radius: 0px;
     border: 0;
