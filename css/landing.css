@@ -1,9 +1,9 @@
-/* {
-    box-sizing: border-box;
-} */
-
 body {
-    size: 100%
+    size: 100%;
+    background-image: url('clouds4.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
 }
 
 .navbar-default {
@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Courier;
+    font-family: Courier, monospace;
     color: #E1E3E4;
     font-size: 20px;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: Courier;
+    font-family: Courier, monospace;
     color: #E1E3E4;
 }
 
@@ -59,13 +59,11 @@ body {
 }
 
 header {
-    font-family: Courier;
+    font-family: Courier, monospace;
     color: #E1E3E4;
     font-size: 40px;
     text-align: center;
-    background-image: url('../images/clouds4.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: transparent;
     max-width: 100%;
     height: 50%;
     padding: 50px;
@@ -96,13 +94,6 @@ hr {
     padding-left: 4px;
     padding-right: 4px;
     color: #E1E3E4;
-
-    /*display: grid;
-    grind-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 1em;
-    background-color: navy;
-    /*padding: 10px; */
 }
 
 .article {
@@ -112,39 +103,18 @@ hr {
     padding-left: 4px;
     padding-right: 4px;
     padding-bottom: 20px;
-
-    /* display: flex;*/
-    /*align-items: center;
-    justify-content: center;
-    /* height: 200px;*/
-
-    /*border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-
-    max-width: 25%;
-    margin-left: 5px;
-    margin-right: 5px;
-    /*flex: 1 1 200px; */
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-
 }
 
 .article img {
-    /*object-fit: cover;
-    width: 100%;
-    max-height: 100%; */
     margin-top: 8px;
     vertical-align: middle;
 }
 
 .description {
     padding: 10px 16px;
-    color: navy;
-    background-color: white;
+    color: #333E47;
+    background-color: #E1E3E4;
+    font-family: Courier, monospace;
 }
 
 /*@supports (display: grid) {
@@ -167,44 +137,4 @@ hr {
         flex: 100%;
         max-width: 100%;
     }
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-button[type=submit] {
-    background-color: cornflowerblue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button[type=submit]:hover {
-    background-color: navy;
-}
-
-.contact {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-footer {
-    left: 0;
-    bottom: 0;
-    width: auto; /* or 100% */
-    padding: 30px;
-    background: linear-gradient(transparent, #7C8790);
-    color: #E1E3E4;
-    text-align: center;
 }
