@@ -16,7 +16,7 @@ body, html {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Courier;
+    font-family: Courier, monospace;
     color: #E1E3E4;
     font-size: 20px;
 }
@@ -28,7 +28,7 @@ body, html {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: Courier;
+    font-family: Courier, monospace;
     color: #E1E3E4;
 }
 
@@ -61,7 +61,7 @@ body, html {
     background-size: cover;
     position: relative;
     color: #E1E3E4;
-    font-family: Courier;
+    font-family: Courier, monospace;
     font-size: 30px;
 }
 
