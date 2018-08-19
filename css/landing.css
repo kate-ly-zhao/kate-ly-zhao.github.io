@@ -1,6 +1,6 @@
 body {
     size: 100%;
-    background-image: url('clouds4.jpg');
+    background-image: url('../images/clouds4.jpg');
     background-size: cover;
     background-position: center;
     max-width: 100%;
